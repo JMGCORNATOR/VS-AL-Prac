@@ -8,4 +8,9 @@ pageextension 50100 CustomerListExt extends "Customer List"
     begin
         Message('App published: Hello world');
     end;
+
+    trigger OnClosePage();
+    begin
+        message('Custimer list is now closed')
+    end;
 }
