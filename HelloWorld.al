@@ -11,6 +11,6 @@ pageextension 50100 CustomerListExt extends "Customer List"
 
     trigger OnClosePage();
     begin
-        message('Custimer list is now closed')
+        Message('Custimer list is now closed')
     end;
 }
